@@ -69,7 +69,7 @@
 			<div class="hero-slide-item set-bg" data-setbg="./img/bg_1.png">
 				<div class="slide-inner">
 					<div class="slide-content sha">
-					<h2>At Christmas,<br>all roads<br>lead home</h2>
+					<h2>At Christmas,<br>all roads<br>lead home.</h2>
 					
 					</div>	
 				</div>
@@ -445,5 +445,19 @@ var x = setInterval(function() {
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/main.js"></script>
+	    $(window).on('scroll',e => {
+        if($(window).scrollTop() > 15){
+            $('.header-area').css({
+                'position':'fixed',
+                'background' : 'black',
+                "height" : '5rem'
+                })
+        }else{
+            $('.header-area').css({
+                'position':'absolute',
+                'background' : 'transparent'
+                })
+        }
+    })
 </body>
 </html>
