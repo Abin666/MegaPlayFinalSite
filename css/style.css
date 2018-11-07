@@ -689,16 +689,7 @@ ol {
 }
 
 .slide-content:after {
-	position: absolute;
-	content: "";
-	height: calc(100% + 50px);
-	width: 330px;
-	border-top: 150px solid #EDA423;
-	border-left: 150px solid #EDA423;
-
-	top: 0;
-	left: 0;
-	opacity: 0.73;
+	display: none;
 }
 
 .slide-content h2 {
