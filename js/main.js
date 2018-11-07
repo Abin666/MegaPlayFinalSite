@@ -44,7 +44,20 @@ $(window).on('load', function() {
 		$(this).css('background-image', 'url(' + bg + ')');
 	});
 
-
+   $(window).on('scroll',e => {
+        if($(window).scrollTop() > 15){
+            $('.header-area').css({
+                'position':'fixed',
+                'background' : 'black',
+                "height" : '5rem'
+                })
+        }else{
+            $('.header-area').css({
+                'position':'absolute',
+                'background' : 'transparent'
+                })
+        }
+    })
 	/*------------------
 		Hero Slider
 	--------------------*/
