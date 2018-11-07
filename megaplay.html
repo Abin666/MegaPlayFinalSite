@@ -24,31 +24,6 @@
             min-height: 75rem;
 
         }
-	    .team{
-    display: block;
-    position: relative;
-    width: calc(20% - 21px);
-    text-align: center;
-
-    box-sizing: border-box;
-}
-.team img{
-    position: relative;
-    border-radius: 50%;
-    width: 80%;
-    margin-bottom: 25px;
-    height: 11em;
-}
-.m-auto{
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-.team span{
-    font-family: 'kelson_sansbold',Arial,sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
-}
         .crew{
             height: 150px;
     width: 150px;
@@ -100,17 +75,7 @@
         .gallery-1{
             box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
         }
-@media only screen and (max-width : 500px){
-    .crew{
-        height: 100px;
-    width: 100px !important;
 
-    margin: 1em;
-    }
-    .crew-details .content{
-        min-height: 45rem;
-    }
-}
 
         /* Three columns side by side */
 .column {
@@ -118,6 +83,40 @@
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
+}
+.team{
+    display: block;
+    position: relative;
+    width: calc(20% - 21px);
+    text-align: center;
+
+    box-sizing: border-box;
+}
+.team img{
+    position: relative;
+    border-radius: 50%;
+    width: 80%;
+    margin-bottom: 25px;
+    height: 11em;
+}
+.m-auto{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.team span{
+    font-family: 'kelson_sansbold',Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.owl-nav div{
+    text-align: center !important ;
+    width: fit-content;
+    margin: auto;
+    padding: .5em;
+    background: #eaa428;
+    margin: .5em auto;
+    color: white;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -169,8 +168,20 @@
 .button:hover {
     background-color: #555;
 }
+@media only screen and (max-width : 500px){
+    .crew{
+        height: 100px;
+    width: 100px !important;
+
+    margin: 1em;
+    }
+    .crew-details .content{
+        min-height: 45rem;
+    }
+}
+
     </style>
-   <title>Megaplay '18</title>
+   <title>Megaplay'18</title>
    <meta charset="UTF-8">
    <meta name="description" content="Arcade - Architecture Template">
    <meta name="keywords" content="arcade, architecture, onepage, creative, html">
@@ -206,90 +217,13 @@
    </div>
 
 
- <div id="dev" class="modal fade" role="dialog">
-        <div class="crew-details modal-dialog col-md-12">
 
-          <!-- Modal content-->
-          <div class="content ">
-            <div class="modal-header">
-
-              <h3 class="modal-title font-sans"  >Developer & Designer</h3>
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-            <div class="modal-body row" style="">
-              <div class="col-md-12">
-                  <div class="row">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="column">
-                                  <div class="card">
-                                    <img src="./img/team/Design&Developer/1.png" alt="Jane" style="width:100%">
-                                    <div class="container">
-                                      <h2>Mr Vinodh Ewards</h2>
-                                      <p class="title">Head &amp; CTC</p>
-                                      <p>He is the Head of Developer &amp; Design Team.</p>
-                                      <p>example@example.com</p>
-                                      <a href="#"><button href="#"  class="button">Contact</button></a>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <div class="column">
-                                  <div class="card">
-                                    <img src="./img/team/Design&Developer/anix.jpeg" alt="Mike" style="width:100%">
-                                    <div class="container">
-                                      <h2>Aniketh Saha</h2>
-                                      <p class="title">Developer</p>
-                                      <p>He is  a member of the developer team of Megaplay.</p>
-                                      <p>anik220798@gmail.com</p>
-                                      <a href="#"><button href="#"  class="button">Contact</button></a>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <div class="column">
-                                  <div class="card">
-                                    <img src="./img/team/Design&Developer/ad-naidu.JPG" alt="John" style="width:100%">
-                                    <div class="container">
-                                      <h2>Aditya Naidu</h2>
-                                      <p class="title">Developer</p>
-                                      <p>He is a creative designer and a developer.</p>
-                                      <p>adityanaidu.work@gmail.com</p>
-                                      <a href="#"><button href="#"  class="button">Contact</button></a>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="column">
-                                    <div class="card">
-                                      <img src="./img/team/Design&Developer/ayush.jpg" alt="John" style="width:100%">
-                                      <div class="container">
-                                        <h2>Ayush Sahni</h2>
-                                        <p class="title">Developer</p>
-                                        <p>He is a creative designer and a developer.</p>
-                                        <p>ayushsahni@karunya.edu.in</p>
-                                        <a href="#"><button href="#"  class="button">Contact</button></a>
-                                      </div>
-                                    </div>
-                                  </div>
-                              </div>
-                        </div>
-
-                  </div>
-
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-    </div>
       <div id="fullpage">
         <div class="section" id="section0">
                 <!-- Header section start -->
                 <header class="header-area">
                        <a href="home.html" class="logo-area">
-                           <img src="img/logo1.png" alt="">
+                           <img src="img/logo.png" alt="">
                        </a>
                        <div class="nav-switch">
                            <i class="fa fa-bars"></i>
@@ -299,7 +233,7 @@
                            <ul>
                                <li><a href="index.html">Home</a></li>
                                <li class="active"><a href="megaplay.html">Megaplay</a></li>
-                               <li><a href="wall.html">SocialWall</a></li>
+                               <li><a href="wall.html">Social Wall</a></li>
                                <li><a href="choir.html">Choir</a></li>
                            </ul>
                        </nav>
@@ -321,7 +255,7 @@
                  <!-- Hero section end -->
                  <section class="intro-section" style="padding:2em 0">
                        <div class="container">
-			       <h1 class="sha1 text-center">Photo <span>Gallery</span></h1>
+                        <h1 class="sha1 text-center">Photo <span>Gallery</span> </h1>
                          <div class="row">
                                <div class="owl-carousel">
                                        <div class="gallery-1"> <img src='./img/service/1.jpg' /> </div>
@@ -354,18 +288,18 @@
                                     <div class="col-md-8 offset-2">
                                         <div class="story-frame text-justify" style="height: 450px;">
                                             <p class="text-justify">
-                                                    The Megaplay is the signature Christmas celebration of Karunya Institute of Technology and Sciences which takes place in the month of December. The preparations for the Megaplay begins months in advance, while all Karunyans eagerly wait for the big day to experience the extravaganza of different talents and one tale.<br>
+                                                    The Megaplay, the signature Christmas celebration of Karunya Institute of Technology and Sciences takes place in the month of December .The preparations for the Megaplay begins months in advance, while all Karunyans eagerly wait for the big day to experience the extravaganza of different talents and one tale.<br>
 
                                                     First of all, the dubbing team dubs and prepares the audio content for the play. A lot of folly recording is done before the recording team finalizes the final content.
-                                                    The recording team works on the recording and documentation of the preparations. The audio team is divided into two sets, the Music and the BGM team, where the Music team records the vocals and the music, while the BGM team prepares the background music and various audio effects. The visual team designs the visual effects to make sure the audience goes crazy  in each and every scene of the play.<br>
+                                                    The recording team works on the recording and documentation of the preparations. The audio team is divided into two Sets, the Music and the BGM team, where the Music team records the vocals and the music, while the BGM team prepares the background Music and various audio effects. The visual team designs the visual effects to make sure the audience goes crazy  in each and every scene of the play.<br>
 
-                                                    As the date approaches closer, the props and craft team begin to work in preparing the required props, art and craft for the act as well as a lot of decorations for the stage. Sure, who would want to see something spectacular in an undecorated environment, right? Meanwhile, the talented dance crew goes on to practice for the big day weeks before, just to perform their best. The choreography team works hard to put a dazzling show on display.<br>
+                                                    As the date approaches closer, the props and craft team begin to work in preparing the required props, art and craft for the act as well as a lot of decorations for the stage. Sure, who would want to see something spectecular in an undecorated environment, right? Meanwhile, the talented dance crew goes on to practice for the big day weeks before, just to perform their best. The choreography team works hard to put a dazzling show on display.<br>
 
-                                                    Now, talking about “best”, how can we forget to bring the choir into picture?  One of the most awaited moments is the performance by the ‘100 Voice Choir’, which comprises of the best vocalists and musicians of the college. Since, the 100 Voice Choir is one of the star attractions of the Megaplay and has always mesmerized the audience with their phenomenal performances, the members of the choir are selected after days of auditions under the watchful eyes of Mr. Shajin Prince and Rev. Philip Timothy along with others, who has immense experience in handling choirs and music events. <br>
+                                                    Now, talking about “best”, how can we forget to bring the choir into picture?  One of the most awaited moments is the performance by the ‘100 voice choir’, which comprises of the best vocalists and musicians of the college. Since, the 100 voice choir is one of the star attractions of the Megaplay and has always mesmerized the audience with their phenomenal performances; the members of the choir are selected after days of auditions under the watchful eyes of Mr. Shajin Prince and Rev. Philip Timothy along with others, who has immense experience in handling choirs and music events. <br>
 
-                                                    The stage management team plays a huge role altogether. It has the responsibility for all the stage orchestrations and management before and throughout the Megaplay. So, now you know who changes the backdrops after each scene! Next is the costume design team. It handles all the work of designing costumes that would match the ambience of the performance and helps in making this glorious event more beautiful.<br>
+                                                    The stage management team plays a huge role altogether. It has a responsibility for all the stage orchestrations and management before and throughout the Megaplay. So, now you know who changes the backdrops after each scene! Next is the costume design team. It handles all the work of designing costumes that would match the ambience of the performance, and helps in making this glorious event more beautiful.<br>
 
-                                                    Now, let us say that it all has been done, even so it will all be in vain if it were not for the Mega-buzz team. The whole promotion for the event is taken care by this team to create a buzz and an appetite among the students and Alumni. All these influencers go through a series of auditions before the best of the best are chosen. The selected ones are the ones who have the hand behind the posters you see on the walls and all the social media campaign. Another indispensable task for sure.<br>
+                                                    Now, let us say that it all has been done, even so it will all be in vein if it were not for the Mega-buzz team. The whole promotion for the event is taken care by this team to create a buzz and an appetite among the students and Alumni. All these influencers go through a series of auditions before the best of the best are chosen. The selected ones are the ones who have the hand behind the posters you see on the walls and all the social media campaign. Another indispensible task for sure.<br>
 
                                                     With this all being said, these are only a few among many who put in their hard work and efforts to make this mega event a huge success and to make that one evening a memorable one.
                                             </p>
@@ -373,9 +307,9 @@
                                                     <div class="ts-item">
                                                 <p>
                                                 </p>
-                                                <h4>Harshit Dolka</h4>
+                                                <h4>Harshit Dholke</h4>
                                                 <h4>Stephen Fernandes</h4>
-                                                <span style="color: #292929;font-weight: 600;" >Content writers</span>
+                                                <span style="color: #292929;font-weight: 600;" >Content writer</span>
                                                 </div>
 
 
@@ -394,7 +328,8 @@
                 </div>
 
             </div>
-<div class="section" id="section2">
+
+    <div class="section" id="section2">
         	<!-- Service section start -->
 	<section class="service-section spad">
 
@@ -413,26 +348,54 @@
                                     </div>
                                 <h3 class="text-center">Developer And Designer</h3>
                                 <div class="row">
-                                        <div class="team col-md-3">
-                                            <img src="./img/team/Design&Developer/1.png" alt="">
-                                            <br/>
-                                            <span>Mr Vinodh Ewards</span>
-                                        </div>
-                                        <div class="team col-md-3">
-                                            <img src="./img/team/Design&Developer/anix.jpeg" alt="">
-                                            <br/>
-                                            <span>Aniketh Saha</span>
-                                        </div>
-                                        <div class="team col-md-3">
-                                            <img src="./img/team/Design&Developer/ad-naidu.JPG" alt="">
-                                            <br/>
-                                            <span>Aditya Naidu</span>
-                                        </div>
-                                        <div class="team col-md-3">
-                                            <img src="./img/team/Design&Developer/ayush.jpg" alt="">
-                                            <br/>
-                                            <span>Ayush Sahni</span>
-                                        </div>
+                                    <div class="crew-carousal-1 row">
+                                            <div class="team ">
+                                                <img src="./img/team/Design&Developer/1.png" alt="">
+                                                <br/>
+                                                <span>Mr Vinodh Ewards</span>
+                                            </div>
+                                            <div class="team ">
+                                                <img src="./img/team/Design&Developer/1.png" alt="">
+                                                <br/>
+                                                <span>Mr Vinodh Ewards</span>
+                                            </div>
+                                            <div class="team ">
+                                                <img src="./img/team/Design&Developer/1.png" alt="">
+                                                <br/>
+                                                <span>Mr Vinodh Ewards</span>
+                                            </div>
+                                            <div class="team ">
+                                                    <img src="./img/team/Design&Developer/1.png" alt="">
+                                                    <br/>
+                                                    <span>Mr Vinodh Ewards</span>
+                                                </div>
+                                                <div class="team ">
+                                                    <img src="./img/team/Design&Developer/1.png" alt="">
+                                                    <br/>
+                                                    <span>Mr Vinodh Ewards</span>
+                                                </div>
+                                                <div class="team ">
+                                                    <img src="./img/team/Design&Developer/1.png" alt="">
+                                                    <br/>
+                                                    <span>Mr Vinodh Ewards</span>
+                                                </div>
+                                                <div class="team ">
+                                                        <img src="./img/team/Design&Developer/1.png" alt="">
+                                                        <br/>
+                                                        <span>Mr Vinodh Ewards</span>
+                                                    </div>
+                                                    <div class="team ">
+                                                        <img src="./img/team/Design&Developer/1.png" alt="">
+                                                        <br/>
+                                                        <span>Mr Vinodh Ewards</span>
+                                                    </div>
+                                                    <div class="team ">
+                                                        <img src="./img/team/Design&Developer/1.png" alt="">
+                                                        <br/>
+                                                        <span>Mr Vinodh Ewards</span>
+                                                    </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -448,27 +411,54 @@
                                 </div>
                             </div>
                             <h3 class="text-center">Crew Member'18</h3>
-                            <div class="row">
-                                    <div class="team col-md-3">
+                            <div class="crew-carousal-2 row">
+                                    <div class="team ">
                                         <img src="./img/team/Design&Developer/1.png" alt="">
                                         <br/>
                                         <span>Mr Vinodh Ewards</span>
                                     </div>
-                                    <div class="team col-md-3">
-                                        <img src="./img/team/Design&Developer/anix.jpeg" alt="">
+                                    <div class="team ">
+                                        <img src="./img/team/Design&Developer/1.png" alt="">
                                         <br/>
-                                        <span>Aniketh Saha</span>
+                                        <span>Mr Vinodh Ewards</span>
                                     </div>
-                                    <div class="team col-md-3">
-                                        <img src="./img/team/Design&Developer/ad-naidu.JPG" alt="">
+                                    <div class="team ">
+                                        <img src="./img/team/Design&Developer/1.png" alt="">
                                         <br/>
-                                        <span>Aditya Naidu</span>
+                                        <span>Mr Vinodh Ewards</span>
                                     </div>
-                                    <div class="team col-md-3">
-                                        <img src="./img/team/Design&Developer/ayush.jpg" alt="">
-                                        <br/>
-                                        <span>Ayush Sahni</span>
-                                    </div>
+                                    <div class="team ">
+                                            <img src="./img/team/Design&Developer/1.png" alt="">
+                                            <br/>
+                                            <span>Mr Vinodh Ewards</span>
+                                        </div>
+                                        <div class="team ">
+                                            <img src="./img/team/Design&Developer/1.png" alt="">
+                                            <br/>
+                                            <span>Mr Vinodh Ewards</span>
+                                        </div>
+                                        <div class="team ">
+                                            <img src="./img/team/Design&Developer/1.png" alt="">
+                                            <br/>
+                                            <span>Mr Vinodh Ewards</span>
+                                        </div>
+                                        <div class="team ">
+                                                <img src="./img/team/Design&Developer/1.png" alt="">
+                                                <br/>
+                                                <span>Mr Vinodh Ewards</span>
+                                            </div>
+                                            <div class="team ">
+                                                <img src="./img/team/Design&Developer/1.png" alt="">
+                                                <br/>
+                                                <span>Mr Vinodh Ewards</span>
+                                            </div>
+                                            <div class="team ">
+                                                <img src="./img/team/Design&Developer/1.png" alt="">
+                                                <br/>
+                                                <span>Mr Vinodh Ewards</span>
+                                            </div>
+                            </div>                            <div class="row">
+
                             </div>
                         </div>
                     </div>
@@ -491,11 +481,9 @@
         <!-- Service section end -->
 
     </div>
-
-    </div>
     <div class="section" id="section3">
         <div class="iframe-wrapper">
-                <iframe width="920" height="500" src="https://www.youtube.com/embed/_nlU1PHDnQQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="900" height="500" src="https://www.youtube.com/embed/_nlU1PHDnQQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 
@@ -524,7 +512,7 @@
                                 <li><a href="#">Home</a></li>
 
                                 <li><a href="megaplay.html">Megaplay</a></li>
-                                <li><a href="#">SocialWall</a></li>
+                                <li><a href="#">Social Wall</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                             </ul>
                         </div>
@@ -639,6 +627,56 @@
             loop: true,
             nav: false,
             dots: false,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            smartSpeed: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                576: {
+                    items: 2
+                },
+                768: {
+                    items: 3
+                },
+                992: {
+                    items: 4
+                }
+            }
+        });
+        $(".crew-carousal-1").owlCarousel({
+            margin: 30,
+            loop: true,
+            nav: false,
+            rtl:true,
+            dots: false,
+            navText: ['<i class="fa fa-long-arrow-left"></i> PREV', 'NEXT<i class="fa fa-long-arrow-right"></i>'],
+            autoplay: true,
+            autoplayTimeout: 5000,
+            smartSpeed: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                576: {
+                    items: 2
+                },
+                768: {
+                    items: 3
+                },
+                992: {
+                    items: 4
+                }
+            }
+        });
+        $(".crew-carousal-2").owlCarousel({
+            margin: 30,
+            loop: true,
+            nav: false,
+            rtl:true,
+            dots: false,
+            navText: ['<i class="fa fa-long-arrow-left"></i> PREV', 'NEXT<i class="fa fa-long-arrow-right"></i>'],
             autoplay: true,
             autoplayTimeout: 5000,
             smartSpeed: 1000,
