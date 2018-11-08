@@ -1179,6 +1179,16 @@ ol {
 	background-size: cover;
 }
 
+.testimonials-section .testimonials-image-box1 {
+	position: absolute;
+	width: 50%;
+	height: calc(100% + 120px);
+	left: 0;
+	top: -60px;
+	background-image: url("../img/cta-img1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .testimonials-section .container {
 	position: relative;
 	z-index: 9;
