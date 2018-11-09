@@ -1166,6 +1166,7 @@ ol {
 	top: 0;
 	background: #222222;
 	z-index: 2;
+    opacity: 0.8;
 }
 
 .testimonials-section .testimonials-image-box {
