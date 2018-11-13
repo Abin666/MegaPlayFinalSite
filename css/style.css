@@ -606,22 +606,7 @@ ol {
 	transition: all 0.4s;
 }
 
-.hero-slider .owl-nav .owl-prev:hover,
-.hero-slider .owl-nav .owl-next:hover {
-	color: #EDA423;
-}
 
-.hero-slider .owl-nav .owl-prev i {
-	margin-right: 5px;
-}
-
-.hero-slider .owl-nav .owl-next {
-	margin-right: 0px;
-}
-
-.hero-slider .owl-nav .owl-next i {
-	margin-left: 5px;
-}
 
 .slide-num-holder {
 	width: 153px;
@@ -764,6 +749,7 @@ ol {
 	    -ms-transform: rotate(-65deg);
 	        transform: rotate(-65deg);
 }
+
 
 .service-box .readmore {
 	font-size: 12px;
