@@ -798,6 +798,7 @@ ol {
 	top: 0;
 	background: #222222;
 	z-index: 2;
+    opacity: 0.8;
 }
 
 .cta-section .cta-image-box {
@@ -1850,7 +1851,6 @@ ol {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.logo-area {
 		padding: 20px 40px 30px;
-
 	}
 	.slide-content {
 		margin-left: 170px;
@@ -1912,6 +1912,12 @@ ol {
 		margin: 0;
 	}
 	.testimonials-image-box,
+	.testimonials-section:after,
+	.cta-image-box,
+	.cta-section:after {
+		display: none;
+	}
+    .testimonials-image-box1,
 	.testimonials-section:after,
 	.cta-image-box,
 	.cta-section:after {
@@ -2066,6 +2072,12 @@ ol {
 	.cta-section:after {
 		display: none;
 	}
+    .testimonials-image-box1,
+	.testimonials-section:after,
+	.cta-image-box,
+	.cta-section:after {
+		display: none;
+	}
 	.milestone,
 	.solid-service-box {
 		margin-bottom: 30px;
@@ -2144,4 +2156,8 @@ ol {
 	.projects-slider {
 		padding: 0 15px;
 	}
+    .sc{
+        width: 250px;
+        height: 200px;
+    }
 }
